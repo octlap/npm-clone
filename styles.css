@@ -1,0 +1,285 @@
+/*General*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+body {
+    font-family: 'Open Sans', 'OpenSans', sans-serif;
+    margin: auto;
+}
+
+.action-button {
+  padding: 8px 26px;
+  border-radius: 20px;
+  color: white;
+  text-decoration: none;
+  border: 1px solid transparent;
+  box-sizing: border-box;
+  clear: both;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.orange {
+  background-color: #f09233;
+}
+
+.red {
+  background-color: #C12127;
+}
+
+.dark-grey {
+  background-color: #34495E;
+}
+
+.navyblue {
+  background-color: #273547
+}
+
+/*Navigation bar------------------------------------*/
+nav {
+  height: 33px;
+  padding: 7px 10px 0;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  font-size: 0.8em;
+}
+
+.top-left {
+  float: left;
+  margin: 0 0 0 10px;
+}
+
+.top-left a {
+  margin: 0 10px;
+}
+
+.top-links {
+   float: right;
+   display: inline-block;
+   padding: 0;
+   margin: 0 20px 0 0;
+   list-style: none;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/*Header-------------------------------------*/
+header {
+  height: 500px;
+  background-image: url("images/city-scape.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% 100%;
+  padding: 10px 20px;
+}
+
+.header-top-bar {
+  margin-bottom: 100px;
+}
+
+.logo {
+  height: 50px;
+  float: left;
+  margin-top: 3px;
+}
+
+.bear-logo {
+  height: 40px;
+  float: right;
+  margin-top: 5px;
+}
+
+header ul {
+  float: right;
+  list-style: none;
+  margin: 13px 15px;
+  color: rgba(255,255,255,0.8);
+  font-size: 1.0em;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit
+}
+
+#search {
+  margin: 3px 0 0 20px;
+  height: 40px;
+  width: 60%;
+  float: left;
+  padding-left: 10px;
+  font-family: Open Sans;
+  font-size: 16px;
+  color: rgb(255, 255, 255, 0.8);
+  background-color: rgba(0,0,0,0.1);
+  border: solid 1px rgba(255, 255, 255, 0.2);
+  display: block;
+}
+
+header div button {
+  background-color: rgba(0,0,0,0.1);
+  border: solid 1px rgba(255, 255, 255, 0.2);
+  font-family: Open Sans;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  height: 44px;
+  width: 4%;
+  margin: 3px 0 0 0;
+}
+
+.build-container {
+  margin: 0 auto;
+  float:left;
+  width: 35%;
+  padding-left: 100px;
+}
+
+header h1 {
+  font-size: 48px;
+  color: white;
+  margin: 0 0 20px 0;
+}
+
+header p {
+  color: white;
+  margin-bottom: 40px;
+}
+
+/*Section 1: Sign up-------------------------------------*/
+
+.sign-up {
+ height: 350px;
+ padding: 70px 20px;
+ font-weight: lighter;
+}
+
+.sign-up-container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.collaboration-image {
+  height: 275px;
+  display: inline-block;
+  float: left;
+}
+
+.collaboration-content {
+  color: white;
+  float: right;
+}
+
+.collaboration-content h2 {
+  font-size: 36px;
+  margin: 0 0 20px 0;
+  color: white;
+  overflow: visible;
+  font-weight: lighter;
+}
+
+.collaboration-content ul {
+  line-height: 30px;
+  margin-bottom: 40px;
+  font-weight: lighter;
+}
+
+.collaboration-content a {
+  text-decoration: none;
+  color: white;
+}
+
+.collaboration-content p {
+  padding-left: 5px;
+}
+
+/*Section 2: Install-------------------------------------*/
+.install {
+   height: 360px;
+   padding: 110px 20px 0;
+   background-image: url("images/forklift.svg");
+   background-repeat: no-repeat;
+   background-position: 0 0;
+   background-size: 100% 100%;
+}
+
+.install-container {
+  margin: 0 auto;
+  float:left;
+  width: 30%;
+  padding-left: 100px;
+  font-weight: lighter;
+}
+
+.install-container h2 {
+  font-size: 36px;
+  margin: 0 0 20px 0;
+  color: white;
+  font-weight: lighter;
+}
+
+.install-container p {
+  color: white;
+  margin-bottom: 40px;
+  font-weight: lighter;
+}
+
+/*Section 2: Install-------------------------------------*/
+
+.features-top {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 70px 20px 40px;
+}
+
+.features-top h2 {
+  font-size: 36px;
+  margin: 0 0 15px 0;
+  color: black;
+  font-weight: lighter;
+}
+
+.features-top p {
+  font-size: 16px;
+  color: #6d7986;
+}
+
+.features-list {
+  height: 350px;
+  width: 70%;
+  margin: 0 auto 20px;
+}
+
+.feature {
+  width: 33%;
+  float: left;
+  display: inline-block;
+  text-align: center;
+}
+
+.icon {
+  height: 122px;
+}
+
+.feature h3 {
+  color: #373d48;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  content: #6d7986;
+  font-weight: lighter;
+}
+
+.feature a {
+  color: #C12127;
+}
